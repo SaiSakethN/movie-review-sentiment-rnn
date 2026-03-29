@@ -70,6 +70,16 @@ This system demonstrates how deep learning models can be applied to real-world N
 5. App returns:
    - Sentiment (Positive / Negative)  
    - Confidence score  
+---
+## 🧠 Model
+
+The model is built using a simple Recurrent Neural Network (RNN) architecture:
+
+- Embedding layer to convert words into dense vector representations  
+- SimpleRNN layer to capture sequential patterns in text  
+- Dense output layer with sigmoid activation for binary classification  
+
+This setup helps demonstrate how sequence-based models process text data, while also highlighting the limitations of basic RNNs in handling long-term dependencies.
 
 ---
 
