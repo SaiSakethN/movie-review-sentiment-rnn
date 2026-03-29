@@ -105,6 +105,10 @@ cd movie-review-sentiment-rnn
 py -3.11 -m venv venv
 .\venv\Scripts\Activate.ps1
 
+pip install -r requirements.txt
+
+streamlit run app.py
+
 ```
 ---
 
@@ -115,7 +119,3 @@ py -3.11 -m venv venv
 - Enhance model accuracy with tuning
 - Improve UI/UX of the application
 
-
-pip install -r requirements.txt
-
-streamlit run app.py
